@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f7f7;
+  font-family: 'UntitledSansWeb-Regular', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+article {
+}
+
+.item {
+}
+
+.item__img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.item__info {
+  background-color: white;
+  padding: 1rem;
+}
+
+.item__info__title {
+  font-family: 'TiemposHeadlineWeb-Bold';
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.item__info__description {
+  font-size: 0.9rem;
+}
+
+footer {
+  color: #6b6b6b;
+  font-size: 11px;
+}

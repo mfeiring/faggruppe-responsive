@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Veldig eksplisitt variant */
+/* ------------------------- */
+/* Mobil */
+/* @media only screen and (max-width: 375px) {
+  body {
+    background-color: red;
+  }
+} */
+
+/* Tablet */
+/* @media only screen and (min-width: 376px) and (max-width: 768px) {
+  body {
+    background-color: yellow;
+  }
+} */
+
+/* Desktop */
+/* @media only screen and (min-width: 769px) {
+  body {
+    background-color: blue;
+  }
+} */
+
+/* Mindre eksplisitt variant */
+/* ------------------------- */
+/* Mobil */
+body {
+  background-color: red;
+}
+
+/* Tablet */
+@media screen and (min-width: 376px) {
+  body {
+    background-color: yellow;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 769px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media (hover: none) {
+  body {
+    background: black;
+  }
+}
